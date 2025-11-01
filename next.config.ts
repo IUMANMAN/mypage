@@ -7,17 +7,17 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "littlemanman.com",
+        hostname: "assets.littlemanman.com",
         pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "www.littlemanman.com",
+        hostname: "www.assets.littlemanman.com",
         pathname: "/**",
       },
     ],
     // Optional: also list domains for compatibility across Next versions
-    domains: ["littlemanman.com", "www.littlemanman.com"],
+    domains: ["assets.littlemanman.com", "www.assets.littlemanman.com"],
   },
 };
 
