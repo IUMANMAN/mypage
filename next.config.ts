@@ -1,23 +1,26 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   images: {
-    // Allow both apex and www subdomain in production
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "assets.littlemanman.com",
+        hostname: "assets.littlemanman.com",  // 添加这个
+        pathname: "/**",
+      },
+      // 保留原有
+      {
+        protocol: "https",
+        hostname: "littlemanman.com",
         pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "www.assets.littlemanman.com",
+        hostname: "www.littlemanman.com",
         pathname: "/**",
       },
     ],
-    // Optional: also list domains for compatibility across Next versions
-    domains: ["assets.littlemanman.com", "www.assets.littlemanman.com"],
+    domains: ["assets.littlemanman.com", "littlemanman.com", "www.littlemanman.com"],
   },
 };
 
