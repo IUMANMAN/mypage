@@ -1,0 +1,28 @@
+{
+  "title": "My Personal App Projects",
+  "projects": [
+    {
+      "title": "TaskFlow",
+      "intro": "A minimal Kanban app with realtime updates and offline support.",
+      "web": "https://example.com/taskflow",
+      "image": "https://your-cloudflare-bucket.example.com/images/taskflow.jpg",
+      "tags": ["Next.js", "Supabase", "PWA"],
+      "github": "https://github.com/you/taskflow"
+    },
+    {
+      "title": "FitTrack",
+      "intro": "Personal fitness tracker with charts and goals.",
+      "web": "https://example.com/fittrack",
+      "image": "https://your-cloudflare-bucket.example.com/images/fittrack.jpg",
+      "tags": ["Vite", "React", "Charts"],
+      "github": "https://github.com/you/fittrack"
+    },
+    {
+      "title": "SnapNotes",
+      "intro": "Capture notes with image OCR and tag search.",
+      "web": "https://example.com/snapnotes",
+      "image": "https://your-cloudflare-bucket.example.com/images/snapnotes.jpg",
+      "tags": ["Next.js", "OCR", "Tailwind"]
+    }
+  ]
+}
