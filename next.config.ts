@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   images: {
+    // Allow both apex and www subdomain in production
     remotePatterns: [
       {
         protocol: "https",
@@ -11,10 +12,12 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "your-cloudflare-bucket.example.com",
+        hostname: "www.littlemanman.com",
         pathname: "/**",
       },
     ],
+    // Optional: also list domains for compatibility across Next versions
+    domains: ["littlemanman.com", "www.littlemanman.com"],
   },
 };
 
