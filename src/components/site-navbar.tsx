@@ -8,7 +8,7 @@ export function SiteNavbar() {
     <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur">
       <div className="mx-auto max-w-6xl px-4 flex h-14 items-center justify-between">
         <Link href="/" className="font-semibold">
-          mypage
+          Little Manman
         </Link>
         <div className="flex items-center gap-3">
           <NavigationMenu>

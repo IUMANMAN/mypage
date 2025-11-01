@@ -2,27 +2,20 @@
   "title": "My Personal App Projects",
   "projects": [
     {
-      "title": "TaskFlow",
-      "intro": "A minimal Kanban app with realtime updates and offline support.",
-      "web": "https://example.com/taskflow",
-      "image": "https://your-cloudflare-bucket.example.com/images/taskflow.jpg",
-      "tags": ["Next.js", "Supabase", "PWA"],
-      "github": "https://github.com/you/taskflow"
+      "title": "AI Generate Resume",
+      "intro": "Next.js resume generator: paste JSON or text, preview and export PDF.",
+      "web": "https://www.i-resume.net/",
+      "image": "https://littlemanman.com/airesume.png",
+      "tags": ["Next.js", "Tailwind", "shadcn/ui", "PDF"],
+      "github": "https://github.com/IUMANMAN/resume-app"
     },
     {
-      "title": "FitTrack",
-      "intro": "Personal fitness tracker with charts and goals.",
-      "web": "https://example.com/fittrack",
-      "image": "https://your-cloudflare-bucket.example.com/images/fittrack.jpg",
-      "tags": ["Vite", "React", "Charts"],
-      "github": "https://github.com/you/fittrack"
-    },
-    {
-      "title": "SnapNotes",
-      "intro": "Capture notes with image OCR and tag search.",
-      "web": "https://example.com/snapnotes",
-      "image": "https://your-cloudflare-bucket.example.com/images/snapnotes.jpg",
-      "tags": ["Next.js", "OCR", "Tailwind"]
+      "title": "Daily Rss",
+      "intro": "Daily RSS reading page powered by n8n and Supabase.",
+      "web": "https://rsspage.vercel.app/",
+      "image": "https://littlemanman.com/dailyrss.png",
+      "tags": ["Vite", "React", "TypeScript", "Supabase"],
+      "github": "https://github.com/IUMANMAN/rsspage"
     }
   ]
 }

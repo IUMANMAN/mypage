@@ -18,12 +18,12 @@ export function ProjectCard({ project }: { project: Project }) {
   return (
     <Card className="overflow-hidden">
       {imageUrl ? (
-        <div className="relative h-40 w-full">
-          <Image src={imageUrl} alt={title} fill className="object-cover" />
+        <div className="relative w-full aspect-video">
+          <Image src={imageUrl} alt={title} fill className="object-contain bg-muted" />
         </div>
       ) : (
         <div className="p-4">
-          <Skeleton className="h-36 w-full" />
+          <Skeleton className="w-full aspect-video" />
         </div>
       )}
       <CardHeader>
@@ -69,7 +69,7 @@ export function ProjectCardSkeleton() {
   return (
     <Card>
       <div className="p-4">
-        <Skeleton className="h-36 w-full" />
+        <Skeleton className="w-full aspect-video" />
       </div>
       <CardHeader>
         <Skeleton className="h-5 w-40" />

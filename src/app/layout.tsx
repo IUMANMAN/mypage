@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Projects | mypage",
-  description: "A simple site introducing my personal app projects.",
+  title: "Little Manman | Projects",
+  description: "A curated list of apps I've built and shipped.",
 };
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
           <SiteNavbar />
           <main className="mx-auto max-w-6xl px-4 py-8">{children}</main>
           <footer className="mx-auto max-w-6xl px-4 border-t py-6 text-sm text-muted-foreground">
-            <p>© {new Date().getFullYear()} mypage. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Little Manman. All rights reserved.</p>
           </footer>
         </ThemeProvider>
       </body>
