@@ -16,10 +16,22 @@ const resumeData = {
   },
   experience: [
     {
+      company: "Alibaba Group",
+      position: "Data Center Technician Intern",
+      location: "Santa Clara, CA",
+      date: "January 2025 - Present",
+      highlights: [
+        "On-Site Technical Support: Provide hands-on tech support to IDC customers, ensuring high service quality and rapid issue resolution.",
+        "Server Maintenance & Troubleshooting: Perform regular maintenance on customer servers, including diagnosing hardware issues, repairs, and component replacements.",
+        "Inventory & Documentation: Maintain complete inventory of all servers and parts, following documented procedures for all tasks.",
+        "Vendor Coordination: Interact with outside server vendors and perform special projects as needed to support data center operations."
+      ]
+    },
+    {
       company: "Rich Windows & Doors, Rigo Cabinets",
       position: "IT Technician",
       location: "Union City",
-      date: "March 2024 - October 2025",
+      date: "March 2024 - October 2024",
       highlights: [
         "Cross-Functional Collaboration & Process Optimization: Partnered with Sales, Accounting, and Factory teams to identify operational pain points and re-engineer workflows.",
         "Custom Software Development (ERP & Systems): Designed and developed critical internal tools, including a custom ERP system, factory tracking management system, and automated quotation system.",
@@ -64,7 +76,7 @@ const resumeData = {
     },
     {
       category: "Data Analytics & AI",
-      items: ["SQL", "ETL Pipelines", "Excel (Advanced)", "N8N (Automation)", "Machine Learning", "Deep Learning Concepts"]
+      items: ["SQL", "ETL Pipelines", "Excel (Advanced)", "N8N (Automation)", "LLM", "Agentic AI", "RAG (Knowledge Base)", "Machine Learning", "Deep Learning"]
     },
     {
       category: "IT Infrastructure & Hardware",
