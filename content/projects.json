@@ -1,21 +1,43 @@
 {
-  "title": "My Personal App Projects",
-  "projects": [
-    {
-      "title": "AI Generate Resume",
-      "intro": "Next.js resume generator: paste JSON or text, preview and export PDF.",
-      "web": "https://www.i-resume.net/",
-      "image": "https://littlemanman.com/airesume.png",
-      "tags": ["Next.js", "Tailwind", "shadcn/ui", "PDF"],
-      "github": "https://github.com/IUMANMAN/resume-app"
-    },
-    {
-      "title": "Daily Rss",
-      "intro": "Daily RSS reading page powered by n8n and Supabase.",
-      "web": "https://rsspage.vercel.app/",
-      "image": "https://littlemanman.com/dailyrss.png",
-      "tags": ["Vite", "React", "TypeScript", "Supabase"],
-      "github": "https://github.com/IUMANMAN/rsspage"
-    }
-  ]
+    "title": "My Personal App Projects",
+    "projects": [
+        {
+            "title": "AI Generate Resume",
+            "intro": "Next.js resume generator: paste JSON or text, preview and export PDF.",
+            "web": "https://www.i-resume.net/",
+            "image": "https://littlemanman.com/airesume.png",
+            "tags": [
+                "Next.js",
+                "Tailwind",
+                "shadcn/ui",
+                "PDF"
+            ],
+            "github": "https://github.com/IUMANMAN/resume-app"
+        },
+        {
+            "title": "Daily RSS",
+            "intro": "Daily RSS reading page powered by n8n and Supabase.",
+            "web": "https://rsspage.vercel.app/",
+            "image": "https://littlemanman.com/dailyrss.png",
+            "tags": [
+                "Vite",
+                "React",
+                "TypeScript",
+                "Supabase"
+            ],
+            "github": "https://github.com/IUMANMAN/rsspage"
+        },
+        {
+            "title": "Pumpbanana",
+            "intro": "Your photo prompts collection - discover and save creative photo ideas.",
+            "web": "https://www.pumpbanana.com",
+            "image": "https://pumpbanana.com/og-image.png",
+            "tags": [
+                "Next.js",
+                "React",
+                "Photo Prompts"
+            ],
+            "github": ""
+        }
+    ]
 }

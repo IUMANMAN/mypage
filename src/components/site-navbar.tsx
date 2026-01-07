@@ -23,6 +23,11 @@ export function SiteNavbar() {
                   <Link href="/">Projects</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavigationMenuLink asChild className="px-3 py-2">
+                  <Link href="/about">About</Link>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
           <ModeToggle />
